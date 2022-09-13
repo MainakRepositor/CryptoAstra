@@ -1,0 +1,352 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background-color: #7cffcb;
+  background-image : linear-gradient(315deg, #7cffcb 0%, #74f2ce 74%);
+  
+}
+
+.header {
+  width: 50%;
+  border: 2px solid black;
+  text-align: center;
+  margin-top: 15px;
+  background-color: #fff;
+  margin-bottom: 15px;
+}
+
+.header p {
+  font-size: 18px;
+  font-weight: bold;
+
+  color: rgb(0, 0, 0);
+}
+
+.containerzz {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+}
+.input-style {
+  width: 40%;
+  height: 40px !important;
+  outline: none;
+  box-sizing: border-box;
+  border: none;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  width: 100%;
+  
+  position: relative;
+
+  z-index: 10;
+  background: #e0e0e0;
+}
+
+.input-style {
+  height: 20px;
+  border: none;
+  padding-left: 7px;
+}
+
+.submit-btn {
+  height: 40px;
+  margin-top: 15px;
+  width: 161px;
+  border: none;
+  margin-bottom: 20px;
+  background-color: #3ee577;
+ transition: 0.4s;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.submit-btn:hover{
+  background-color: #21ca5a;
+}
+.coin-list {
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  width: 90%;
+}
+
+.coin-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  width: 100%;
+}
+.note{
+  font-size: 12px !important;
+  color: #f84242 !important;
+}
+.coin {
+  width: 100%;
+ 
+  height: auto;
+  color: black;
+  border-radius: 10px;
+  border: none;
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background: #f3f3f3;
+  text-align: center;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.value-div {
+  text-align: right;
+}
+
+.ani-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.toggle-btn {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #3ee577;
+  background-image: linear-gradient(315deg, #3ee577 0%, #42fcdb 74%);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 7%;
+  right: 10%;
+  cursor: pointer;
+  z-index: 100;
+  position: fixed;
+}
+
+.add-btn {
+  color: #3ee577;
+  cursor: pointer;
+}
+
+.trash-btn {
+  color: #f84242;
+  cursor: pointer;
+}
+
+.exit-form-btn {
+  color: red;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.btn-sign {
+  font-size: 30px;
+}
+
+.search-bar {
+  margin-top: 10px;
+  width: 80%;
+  height: 50px;
+  outline: 0;
+  border: none;
+  transition: 0.4s;
+  padding-left: 12px;
+  background: #f5f5fa;
+  
+}
+.search-bar:hover, .search-bar:focus {
+  border: 1px solid #009688;
+  background-color: rgb(233, 233, 233);
+}
+.search-container {
+  background-color: #e8e8e8;
+  border-radius: 15px;
+  height: 80vh;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.search-list {
+  height: 80%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  background: transparent;
+}
+
+/* Scroll bar styling */
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(184, 184, 184);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(138, 138, 138);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #626262;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #3498db;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.search-list-coin {
+  min-height: 40px;
+  display: flex;
+  justify-content: space-around;
+  width: 95%;
+  cursor: pointer;
+  margin-bottom: 10px;
+  align-items: center;
+  text-align: center;
+  
+  color: #34373b;
+  background: #f0f0f3;
+ 
+}
+
+.search-list-coin:first-child {
+  margin-top: 10px;
+}
+
+.search-list-coin:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.add-txa-btnn {
+  background: #3ee577;
+  color: white;
+  cursor: pointer;
+  border-radius: 7px;
+  height: 30px;
+  width: 130px;
+  border: #3ee577 solid;
+}
+
+.profit {
+  color: rgb(1, 104, 1);
+}
+
+.even {
+  color: rgb(139, 139, 139);
+}
+
+.loss {
+  color: red;
+}
+
+.total-value {
+  text-align: right;
+  color: rgb(139, 139, 139);
+  margin-top: 50px;
+}
+
+.total-value p:first-child {
+  color: black;
+}
+
+@media only screen and (max-width: 750px) {
+  .search-container {
+    width: 100%;
+    height: 93vh;
+    
+  }
+
+  .search-bar {
+    margin-bottom: -20%;
+  }
+
+  .search-list {
+    height: 70%;
+    margin-top: 40px;
+  }
+
+  .coin {
+    font-size: 1em;
+  }
+}
+.price{
+ float: top;
+  font-size: 12px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
