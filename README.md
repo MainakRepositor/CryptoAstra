@@ -100,7 +100,6 @@ Coinverse Exchange page is one page web page having table which cointains:
 
 ![ex2](https://user-images.githubusercontent.com/85479838/145670884-9ef1731d-5b15-4930-9f5e-1db78172b56d.png)
 
-### Page URL: https://cryptoversee.herokuapp.com/exchanges.html#
 
 ## 4. Cryptocurrency Portfolio tracker:
 
@@ -124,7 +123,7 @@ It is made using ReactJs and ExpressJS with libraries of Bootstrap and Jquery an
 
 ![portfolio2](https://user-images.githubusercontent.com/85479838/145669185-a5d6e798-c09e-40e7-b178-9f99511012a5.png)
 
-### Page URL : https://cryptoversee.herokuapp.com/portfolio
+
 
 
 ## 5. CryptoCurrency Latest News:
@@ -142,7 +141,7 @@ It is made using NodeJs, Jquery, Bootstrap and Free API from Cryptocompare.
 ![news3](https://user-images.githubusercontent.com/85479838/145669413-07e19e19-2787-4055-b985-b67155e6b648.png)
 
 
-### Page URL : https://cryptoversee.herokuapp.com/news.html
+
 
 ## 6. Coinverse Publications
 
@@ -165,7 +164,7 @@ It is made using NodeJs, Jquery, Bootstrap, Cheerio, Axios.
 
 ![mover](https://user-images.githubusercontent.com/85479838/145669870-0321d7a7-e9c7-45b3-89f9-c8d31d62b93a.png)
 
-### Page URL : https://cryptoversee.herokuapp.com/mover.html
+
 
 
 ## 8. Crypto Events Page
@@ -180,7 +179,7 @@ It is made Using NodeJs, Node-Fetch, Javascript, EJS, Bootstrap and API from kry
 
 ![events](https://user-images.githubusercontent.com/85479838/145670083-35903a99-faa5-40ca-b9df-f00f979d08c7.png)
 
-### Page URL: https://cryptoversee.herokuapp.com/events
+
 
 ## 9. CryptoVerse Crypto Dictionary
 
@@ -206,7 +205,6 @@ It is made from NodeJs, Axios, Cheerio, Bootstrap and data is scrapped from coin
 ![pre2](https://user-images.githubusercontent.com/85479838/145850370-351dd3db-df6f-43ba-a333-444c0dd98b89.png)
 
 
-### Page URL: https://cryptooversee.herokuapp.com/predict
 
 
 
