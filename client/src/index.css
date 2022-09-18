@@ -130,19 +130,17 @@ body {
 
 .toggle-btn {
   height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  background-color: blue;
-   text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  bottom: 7%;
-  right: 10%;
-  cursor: pointer;
-  z-index: 100;
-  position: fixed;
+    width: 50px;
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 7%;
+    right: 10%;
+    cursor: pointer;
+    z-index: 100;
+    position: fixed;
 }
 
 .add-btn {
