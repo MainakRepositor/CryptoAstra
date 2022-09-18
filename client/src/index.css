@@ -132,8 +132,8 @@ body {
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  background-color: #3ee577;
-  background-image: linear-gradient(315deg, #3ee577 0%, #42fcdb 74%);
+  background-color: #572aeb;
+  /*background-image: linear-gradient(315deg, #3ee577 0%, #42fcdb 74%);*/
   text-align: center;
   display: flex;
   align-items: center;
@@ -147,7 +147,7 @@ body {
 }
 
 .add-btn {
-  color: #3ee577;
+  color: #572aeb;
   cursor: pointer;
 }
 
