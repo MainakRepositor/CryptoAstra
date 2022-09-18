@@ -7,8 +7,8 @@
 body {
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
-  background-color: #a6e4ff;
-  
+  background-color: #7cffcb;
+  background-image : linear-gradient(315deg, #7cffcb 0%, #74f2ce 74%);
   
 }
 
@@ -129,24 +129,24 @@ body {
 }
 
 .toggle-btn {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    background-color: blue;
-    color: white;
-  
-    text-align: center;
-    position: absolute;
-    bottom: 7%;
-    right: 10%;
-    cursor: pointer;
-    z-index: 100;
-    position: fixed;
-}
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: blue;
+   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 7%;
+  right: 10%;
+  cursor: pointer;
+  z-index: 100;
+  position: fixed;
 }
 
 .add-btn {
-  color: #572aeb;
+  color: #3ee577;
   cursor: pointer;
 }
 
@@ -168,7 +168,6 @@ body {
 
 .btn-sign {
   font-size: 30px;
-  color:#572aeb;
 }
 
 .search-bar {
