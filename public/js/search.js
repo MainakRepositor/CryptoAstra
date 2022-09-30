@@ -2,7 +2,7 @@ $(document).ready(function(){
     // Get value on button click and show alert
     $("#myBtn").click(function(){
         var str = $("#myInput").val();
-        window.location.href = `https://cryptoversee.herokuapp.com/coin.html?${str}`;
+        window.location.href = `https://cryptastra.herokuapp.com/coin.html?${str}`;
         
 
     });
